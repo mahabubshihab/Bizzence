@@ -1,0 +1,105 @@
+
+/* =========== Common Css Start ===========*/
+:root{
+    --heading-font:'Abril fatface', cursive;
+    --primary-font:'Ubuntu', sans-serif;
+    --secondary-font:'Ubuntu', sans-serif;
+    --primarycolor:#0f2f44;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li{
+    margin:0;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+    ul,
+    ol{
+        list-style-type: none;
+    }
+/* =========== Common Css End ===========*/
+/* =========== Top Bar Section Css Start ===========*/
+#top_bar{
+    padding:19px 0;
+   background-color:var(--primarycolor);
+   color:#fefefe;
+   font-family: var(--primary-font);
+   font-size: 16px;
+}
+/* ===========  Top Bar Section Css End ===========*/
+
+/* ===========  Nav Section Css Start ===========*/
+#primary_nav #primary_menu ul li a{
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    text-transform: capitalize;
+    padding:40px 19px;
+    display: inline-block;
+    color:#222222;
+}
+#primary_nav #primary_menu ul li button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid#dedede;
+    margin:0 10px;
+}
+#primary_nav #primary_menu ul li button:hover,
+#primary_nav #primary_menu ul li a:hover{
+    color:#ffc712;
+    background-color: #fff9e6;
+}
+
+/* ===========  Nav Section Css End ===========*/
+
+/* ===========  Banner Section Css Start ===========*/
+#banner{
+    background-image: url(./../img/Bizzency.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 600px;
+
+}
+#banner button{
+   box-shadow: 0 7px 20px 0px rgba(132,132,191,0.15) ;
+}
+
+/* ===========  Banner Section Css End ===========*/
+
+/* ===========  Service Section Css Start ===========*/
+#service .service_box{
+    position: relative;
+    /* background-color: red; */
+}
+
+#service .service_box .service_box_icon{
+    width:100px;
+}
+#service .service_box .service_box_info{
+    width: calc(100% - 100px);
+    /* background-color: green; */
+}
+#service .service_box .overlay{
+    background-color: var(--primary-color);
+    position:absolute;
+    left:0;
+    top:0;
+
+}
+
+/* ===========  Service Section Css End ===========*/
+
+
+
